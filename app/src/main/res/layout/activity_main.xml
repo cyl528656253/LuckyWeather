@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--
+    <fragment
+        android:id="@+id/choose_area_fragment"
+        android:name="com.coolweather.android.ChooseAreaFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+-->
+    <!--
+    <Button
+        android:id="@+id/init_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="init"/>
+        -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <scut.carson_ho.searchview.SearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textSizeSearch="5dp"
+                app:textColorSearch="#3F51B5"
+                app:textHintSearch="输入城市"
+                app:searchBlockHeight="150"
+                app:searchBlockColor="#ffffff"
+                />
+
+        <!--
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            style="@style/MaterialSearchBarLight"
+            app:mt_hint="请输入城市名"
+            app:mt_maxSuggestionsCount="13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchBar"
+            />
+            -->
+        <!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="以下是推荐结果: "/>
+
+        <ListView
+            android:id="@+id/city_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+        -->
+
+    </LinearLayout>
+</LinearLayout>

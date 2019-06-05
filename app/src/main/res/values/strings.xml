@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LuckyWeather</string>
+    <string name="appid">appid=93291718</string>
+    <string name="appsecret">appsecret=MkFH4UNF</string>
+    <string name="version">version=v10</string>
+    <string name="api">https://www.tianqiapi.com/api/</string>
+</resources>
